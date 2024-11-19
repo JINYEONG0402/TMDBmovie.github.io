@@ -1,4 +1,5 @@
 const { defineConfig } = require("@vue/cli-service");
-module.exports = defineConfig({
-  transpileDependencies: true,
-});
+module.exports = {
+  publicPath: 'https://github.com/JINYEONG0402/TMDBmovie.github.io.git',
+  outputDir: 'dist' 
+}
